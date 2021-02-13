@@ -1,0 +1,6 @@
+[submodule "src/ros_gsplines/gsplines"]
+	path = src/ros_gsplines/gsplines
+	url = git@github.com:rafaelrojasmiliani/gsplines.git
+[submodule "src/ros_gsplines/gspline_optimizer"]
+	path = src/ros_gsplines/gspline_optimizer
+	url = git@github.com:rafaelrojasmiliani/gspline_optimizer.git
