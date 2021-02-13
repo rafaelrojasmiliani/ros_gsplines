@@ -6,7 +6,6 @@ find_package(catkin REQUIRED COMPONENTS
     std_msgs
     message_generation)
 catkin_python_setup()
-catkin_package(CATKIN_DEPENDS message_runtime)
 include_directories(${catkin_INCLUDE_DIRS})
 add_message_files(
   FILES
@@ -16,3 +15,4 @@ generate_messages(
   DEPENDENCIES
   std_msgs
 )
+catkin_package(CATKIN_DEPENDS message_runtime)
