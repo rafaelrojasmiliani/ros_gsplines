@@ -1,11 +1,9 @@
-from . import gsplines
 from trajectory_msgs.msg import JointTrajectoryPoint
 from trajectory_msgs.msg import JointTrajectory
 from control_msgs.msg import JointTolerance
 from control_msgs.msg import FollowJointTrajectoryActionGoal
 from control_msgs.msg import FollowJointTrajectoryAction
 from control_msgs.msg import FollowJointTrajectoryGoal
-from actionlib_msgs.msg import GoalID
 
 import numpy as np
 import rospy

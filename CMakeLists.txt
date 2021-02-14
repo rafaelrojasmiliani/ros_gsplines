@@ -9,7 +9,7 @@ catkin_python_setup()
 include_directories(${catkin_INCLUDE_DIRS})
 add_message_files(
   FILES
-  jointGSplineTrajectory.msg
+  JointGSplineTrajectory.msg
 )
 generate_messages(
   DEPENDENCIES
