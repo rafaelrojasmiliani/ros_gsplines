@@ -15,7 +15,7 @@ def gspline_to_joint_gspline_trajectory(_trj, _joint_names, _rate):
 
     result.joint_names = _joint_names
     result.json_representation = piecewise2json(_trj)
-    result.rate = _rate
+    result.rate = rospy.Duration.from_sec(_rate)
     return result
 
 
