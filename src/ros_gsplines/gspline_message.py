@@ -10,7 +10,7 @@ def gspline_to_joint_gspline_trajectory(_trj, _joint_names, _rate):
 
     result = JointGSplineTrajectory()
     header = std_msgs.msg.Header()
-    header.stamp = rospy.Time.now()
+    header.stamp = rospy.Time()
     result.header = header
 
     result.joint_names = _joint_names

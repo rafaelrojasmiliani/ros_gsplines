@@ -27,7 +27,7 @@ def gspline_to_joint_trajectory_message(_trj, _joint_names, _sample_rate):
         trjpoint.time_from_start = rospy.Duration.from_sec(time_i)
         msg.points.append(trjpoint)
     header = std_msgs.msg.Header()
-    header.stamp = rospy.Time.now()
+    header.stamp = rospy.Time()
     msg.header = header
     return msg
 
