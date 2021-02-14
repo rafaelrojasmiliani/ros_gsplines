@@ -9,9 +9,9 @@ setup_args = generate_distutils_setup(
     packages=[
         'ros_gsplines', 'gsplines', 'gsplinesopt'
     ],
-    package_dir={'': 'src', 'gsplines': 'src/ros_gsplines/gsplines/gsplines',
+    package_dir={'': 'src', 'gsplines': 'submodules/gsplines/gsplines',
                  'gsplinesopt':
-                 'src/ros_gsplines/gspline_optimizer/gsplinesopt'},
+                 'submodules/gspline_optimizer/gsplinesopt'},
 )
 
 
