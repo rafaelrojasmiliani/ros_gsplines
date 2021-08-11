@@ -1,6 +1,6 @@
 [submodule "submodules/gsplines"]
 	path = submodules/gsplines
-	url = git@github.com:rafaelrojasmiliani/gsplines.git
+	url = https://github.com/rafaelrojasmiliani/gsplines.git
 [submodule "submodules/gspline_optimizer"]
 	path = submodules/gspline_optimizer
-	url = git@github.com:rafaelrojasmiliani/gspline_optimizer.git
+	url = https://github.com/rafaelrojasmiliani/gspline_optimizer.git
